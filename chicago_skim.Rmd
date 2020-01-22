@@ -1,0 +1,22 @@
+---
+title: "chicago"
+author: "JK"
+date: '2020 1 22 '
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+
+```{r}
+library(dials)
+data("Chicago")
+
+library(skimr)
+
+skimr::skim(Chicago)
+```
+
+
